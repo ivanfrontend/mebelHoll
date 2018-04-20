@@ -1808,7 +1808,7 @@ footer.footer2 .copyRight {
   position: relative;
 }
 #slider .sliderCont .slides .text_lines {
-  height: 165px;
+  height: 175px;
   background: rgba(0, 0, 0, 0.38);
   color: #FFF;
   position: absolute;
@@ -1844,7 +1844,7 @@ footer.footer2 .copyRight {
 #slider .sliderCont .flex-direction-nav a i {
   font-size: 35px;
   color: #FFF;
-  line-height: 165px;
+  line-height: 175px;
 }
 #slider .sliderCont .flex-direction-nav a.flex-prev {
   left: -100px;
