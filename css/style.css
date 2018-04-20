@@ -899,7 +899,6 @@ button:hover {
 }
 .product .productInner .imgHov img {
   width: 100%;
-  height: 262.5px;
 }
 .product .productInner .imgHov .hovArea {
   position: absolute;
@@ -1007,10 +1006,6 @@ button:hover {
 }
 .product .productInner:hover .imgHov .hovArea .proPrice {
   margin-top: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 /*Single Product*/
 .singleProduct .flexslider {
@@ -1208,7 +1203,7 @@ button:hover {
 .product2 .thumbnail {
   padding: 10px;
   border-radius: 0;
-  /*cursor: crosshair;*/
+  cursor: crosshair;
 }
 .product2 .thumbnail .imgHov {
   position: relative;
@@ -1420,10 +1415,6 @@ button:hover {
 }
 .featureCats .item:hover .imgHov .hovArea a {
   margin-bottom: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 #featureCat2 {
   background: #f6f6f6;
@@ -1599,13 +1590,13 @@ button:hover {
   float: none;
 }
 #brands .brands ul li {
-  width: 20%;
+  width: 16%;
   padding: 0 15px;
 }
 #brands .brands ul li a {
   line-height: 74px;
-  border: 1px solid #cccccc;
-  padding: 0 10px;
+ 
+  padding: 5px;
   text-align: center;
   border-radius: 0;
   overflow: hidden;
@@ -1641,9 +1632,12 @@ button:hover {
   background: transparent;
   border-color: rgba(58, 181, 74, 0.3);
 }
+
+
+
 /*----------------------------------------------------------------*/
 footer {
-  background: url('../images/footer.jpg') no-repeat scroll center center;
+  background: url('../images/footer.png') no-repeat scroll center 0;
   background-size: cover;
 }
 footer .copyRight {
@@ -1814,7 +1808,7 @@ footer.footer2 .copyRight {
   position: relative;
 }
 #slider .sliderCont .slides .text_lines {
-  height: 175px;
+  height: 165px;
   background: rgba(0, 0, 0, 0.38);
   color: #FFF;
   position: absolute;
@@ -1834,7 +1828,6 @@ footer.footer2 .copyRight {
 #slider .sliderCont .slides .text_lines a h4 {
   text-transform: lowercase;
   color: #FFF;
-  padding-top: 10px;
 }
 #slider .sliderCont .flex-direction-nav a {
   height: 165px;
@@ -1851,7 +1844,7 @@ footer.footer2 .copyRight {
 #slider .sliderCont .flex-direction-nav a i {
   font-size: 35px;
   color: #FFF;
-  line-height: 175px;
+  line-height: 165px;
 }
 #slider .sliderCont .flex-direction-nav a.flex-prev {
   left: -100px;
@@ -3869,22 +3862,6 @@ abbr[title] {
 
   .wrapp-form-serch .searchForm{
       display: inline-block;
-  }
-
-  .my-disp{
-    display: inline-block;
-  }
-
-  .button_next{
-    font-size:  24px;
-    border:   1px solid ;
-    padding:  3px 7px;
-    transition: .5s;
-  }
-  .button_next:hover{
-    transition: .5s;
-    color:  #000;
-    border:   1px solid #000;
   }
 
 /*end my*/
